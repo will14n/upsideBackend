@@ -47,7 +47,10 @@ function fetchP2PData(
 
       res.on("end", () => {
         try {
-          const jsonOuput = JSON.parse(output);
+          let jsonOuput = "";
+          if (output) {
+            jsonOuput = JSON.parse(output);
+          }
           // console.log(jsonOuput.data)
           // console.log(collection)
           async function con() {
