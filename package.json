@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "npx binancio"
   },
   "author": "Sanchez Marcos",
   "license": "ISC",
